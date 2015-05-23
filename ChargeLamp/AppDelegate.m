@@ -17,6 +17,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [[UIDevice currentDevice] setBatteryMonitoringEnabled:YES];
+    
+    
     return YES;
 }
 
