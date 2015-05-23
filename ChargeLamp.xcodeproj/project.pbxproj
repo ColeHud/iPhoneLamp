@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDA476AC1B11142100D4466D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA476AB1B11142100D4466D /* main.m */; };
+		EDA476AF1B11142100D4466D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA476AE1B11142100D4466D /* AppDelegate.m */; };
+		EDA476B21B11142100D4466D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA476B11B11142100D4466D /* ViewController.m */; };
+		EDA476B51B11142100D4466D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDA476B31B11142100D4466D /* Main.storyboard */; };
+		EDA476B71B11142100D4466D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDA476B61B11142100D4466D /* Images.xcassets */; };
+		EDA476BA1B11142100D4466D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDA476B81B11142100D4466D /* LaunchScreen.xib */; };
+		EDA476C61B11142100D4466D /* ChargeLampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA476C51B11142100D4466D /* ChargeLampTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EDA476C01B11142100D4466D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EDA4769E1B11142100D4466D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA476A51B11142100D4466D;
+			remoteInfo = ChargeLamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EDA476A61B11142100D4466D /* ChargeLamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChargeLamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA476AA1B11142100D4466D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA476AB1B11142100D4466D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDA476AD1B11142100D4466D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EDA476AE1B11142100D4466D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDA476B01B11142100D4466D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EDA476B11B11142100D4466D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EDA476B41B11142100D4466D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDA476B61B11142100D4466D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EDA476B91B11142100D4466D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EDA476BF1B11142100D4466D /* ChargeLampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChargeLampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDA476C41B11142100D4466D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDA476C51B11142100D4466D /* ChargeLampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChargeLampTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDA476A31B11142100D4466D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA476BC1B11142100D4466D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDA4769D1B11142100D4466D = {
+			isa = PBXGroup;
+			children = (
+				EDA476A81B11142100D4466D /* ChargeLamp */,
+				EDA476C21B11142100D4466D /* ChargeLampTests */,
+				EDA476A71B11142100D4466D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDA476A71B11142100D4466D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDA476A61B11142100D4466D /* ChargeLamp.app */,
+				EDA476BF1B11142100D4466D /* ChargeLampTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDA476A81B11142100D4466D /* ChargeLamp */ = {
+			isa = PBXGroup;
+			children = (
+				EDA476AD1B11142100D4466D /* AppDelegate.h */,
+				EDA476AE1B11142100D4466D /* AppDelegate.m */,
+				EDA476B01B11142100D4466D /* ViewController.h */,
+				EDA476B11B11142100D4466D /* ViewController.m */,
+				EDA476B31B11142100D4466D /* Main.storyboard */,
+				EDA476B61B11142100D4466D /* Images.xcassets */,
+				EDA476B81B11142100D4466D /* LaunchScreen.xib */,
+				EDA476A91B11142100D4466D /* Supporting Files */,
+			);
+			path = ChargeLamp;
+			sourceTree = "<group>";
+		};
+		EDA476A91B11142100D4466D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDA476AA1B11142100D4466D /* Info.plist */,
+				EDA476AB1B11142100D4466D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EDA476C21B11142100D4466D /* ChargeLampTests */ = {
+			isa = PBXGroup;
+			children = (
+				EDA476C51B11142100D4466D /* ChargeLampTests.m */,
+				EDA476C31B11142100D4466D /* Supporting Files */,
+			);
+			path = ChargeLampTests;
+			sourceTree = "<group>";
+		};
+		EDA476C31B11142100D4466D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDA476C41B11142100D4466D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDA476A51B11142100D4466D /* ChargeLamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA476C91B11142100D4466D /* Build configuration list for PBXNativeTarget "ChargeLamp" */;
+			buildPhases = (
+				EDA476A21B11142100D4466D /* Sources */,
+				EDA476A31B11142100D4466D /* Frameworks */,
+				EDA476A41B11142100D4466D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChargeLamp;
+			productName = ChargeLamp;
+			productReference = EDA476A61B11142100D4466D /* ChargeLamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EDA476BE1B11142100D4466D /* ChargeLampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDA476CC1B11142100D4466D /* Build configuration list for PBXNativeTarget "ChargeLampTests" */;
+			buildPhases = (
+				EDA476BB1B11142100D4466D /* Sources */,
+				EDA476BC1B11142100D4466D /* Frameworks */,
+				EDA476BD1B11142100D4466D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDA476C11B11142100D4466D /* PBXTargetDependency */,
+			);
+			name = ChargeLampTests;
+			productName = ChargeLampTests;
+			productReference = EDA476BF1B11142100D4466D /* ChargeLampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDA4769E1B11142100D4466D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Cole Hudson";
+				TargetAttributes = {
+					EDA476A51B11142100D4466D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					EDA476BE1B11142100D4466D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = EDA476A51B11142100D4466D;
+					};
+				};
+			};
+			buildConfigurationList = EDA476A11B11142100D4466D /* Build configuration list for PBXProject "ChargeLamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDA4769D1B11142100D4466D;
+			productRefGroup = EDA476A71B11142100D4466D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA476A51B11142100D4466D /* ChargeLamp */,
+				EDA476BE1B11142100D4466D /* ChargeLampTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDA476A41B11142100D4466D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA476B51B11142100D4466D /* Main.storyboard in Resources */,
+				EDA476BA1B11142100D4466D /* LaunchScreen.xib in Resources */,
+				EDA476B71B11142100D4466D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA476BD1B11142100D4466D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDA476A21B11142100D4466D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA476B21B11142100D4466D /* ViewController.m in Sources */,
+				EDA476AF1B11142100D4466D /* AppDelegate.m in Sources */,
+				EDA476AC1B11142100D4466D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA476BB1B11142100D4466D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDA476C61B11142100D4466D /* ChargeLampTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EDA476C11B11142100D4466D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EDA476A51B11142100D4466D /* ChargeLamp */;
+			targetProxy = EDA476C01B11142100D4466D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EDA476B31B11142100D4466D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA476B41B11142100D4466D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDA476B81B11142100D4466D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDA476B91B11142100D4466D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDA476C71B11142100D4466D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EDA476C81B11142100D4466D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDA476CA1B11142100D4466D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChargeLamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDA476CB1B11142100D4466D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChargeLamp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EDA476CD1B11142100D4466D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChargeLampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChargeLamp.app/ChargeLamp";
+			};
+			name = Debug;
+		};
+		EDA476CE1B11142100D4466D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChargeLampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChargeLamp.app/ChargeLamp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDA476A11B11142100D4466D /* Build configuration list for PBXProject "ChargeLamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA476C71B11142100D4466D /* Debug */,
+				EDA476C81B11142100D4466D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDA476C91B11142100D4466D /* Build configuration list for PBXNativeTarget "ChargeLamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA476CA1B11142100D4466D /* Debug */,
+				EDA476CB1B11142100D4466D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EDA476CC1B11142100D4466D /* Build configuration list for PBXNativeTarget "ChargeLampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDA476CD1B11142100D4466D /* Debug */,
+				EDA476CE1B11142100D4466D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDA4769E1B11142100D4466D /* Project object */;
+}
