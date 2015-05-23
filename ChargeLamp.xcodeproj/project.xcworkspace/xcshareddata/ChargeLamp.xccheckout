@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B01B5BDE-8BB6-4E88-8AF3-75A1702E18C1</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ChargeLamp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D4AA5D0913603BE816DE2335CFEA8643925976DA</key>
+		<string>https://github.com/ColeHud/iPhoneLamp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ChargeLamp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D4AA5D0913603BE816DE2335CFEA8643925976DA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ColeHud/iPhoneLamp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D4AA5D0913603BE816DE2335CFEA8643925976DA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D4AA5D0913603BE816DE2335CFEA8643925976DA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ChargeLamp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
