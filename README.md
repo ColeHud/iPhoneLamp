@@ -1,3 +1,3 @@
 #iPhone Lamp
 
-Like a really expensive lamp
+Uses iPhone flash to create an artificial light.
